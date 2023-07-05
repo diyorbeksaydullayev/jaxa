@@ -1,0 +1,99 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: sans-serif;
+}
+.box{
+width: 300px;
+height: 300px;
+margin: auto;
+transform: translateY(50px);
+}
+.main{
+width: 80%;
+height: auto;
+margin: 50px auto;
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 20px;
+}
+.card1{
+width: 380px;
+height: 280px;
+background: rgb(235, 233, 233);
+display: flex;
+gap: 15px;
+justify-content: space-between;
+background: url(./iphone.avif)no-repeat ;
+padding-left: 10%;
+}
+.card2{
+width: 380px;
+height: 280px;
+background: rgb(235, 233, 233);
+display: flex;
+gap: 15px;
+justify-content: space-between;
+background: url(./the\ frame.webp)no-repeat center/cover ;
+padding-left: 10%;
+}
+.card3{
+width: 380px;
+height: 280px;
+background: rgb(235, 233, 233);
+display: flex;
+gap: 15px;
+justify-content: space-between;
+background: url(./televizor.avif)no-repeat center/cover;
+padding-left: 10%;
+}
+.card4{
+width: 380px;
+height: 280px;
+background: rgb(235, 233, 233);
+display: flex;
+gap: 15px;
+justify-content: space-between;
+background: url(./airpods.avif)no-repeat center/cover ;
+padding-left: 10%;
+}
+.card5{
+width: 380px;
+height: 280px;
+background: rgb(235, 233, 233);
+display: flex;
+gap: 15px;
+justify-content: space-between;
+background: url(./watch.avif)no-repeat center/cover ;
+padding-left: 10%;
+}
+.card6{
+width: 380px;
+height: 280px;
+background: rgb(235, 233, 233);
+display: flex;
+gap: 15px;
+justify-content: space-between;
+background: url(./xaladelnik.avif)no-repeat center/cover;
+padding-left: 10%;
+}
+.nabi{
+display: flex;
+gap: 20px;
+justify-content: space-between;
+padding: 0 30%;
+}
+.collection2{
+display: flex;
+gap: 20px;
+justify-content: center;
+list-style: none;
+}
+.item2{
+    text-align: center;
+}
+.assa{
+    border-bottom: 2px solid black;
+}
